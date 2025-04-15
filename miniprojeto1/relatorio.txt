@@ -1,0 +1,79 @@
+Análise de Dados
+
+
+Características do Dataset
+
+Fonte: Conjunto de dados representando pacientes com cancro nos Emirados Árabes Unidos (EAU). https://www.kaggle.com/datasets/ak0212/uae-cancer-patient-dataset
+
+Registos: 10.000 pacientes
+
+Colunas: 20 variáveis, incluindo:
+
+Demografia: Idade, Género, Nacionalidade, Emirado, Etnia
+
+Informação Clínica: Tipo de Cancro, Estágio, Tipo de Tratamento, Comorbidades, Estado de Tabagismo
+
+Resultados: Recuperado, Em Tratamento, Falecido
+
+Datas: Diagnóstico, Início do Tratamento, Data de Óbito
+
+Principais Observações dos Dados
+
+Distribuição de Género Equilibrada: 49,85% Feminino, 48,27% Masculino, 1,88% Outro.
+
+Grupo Nacional Mais Comum: Emiratis (59.20%).
+
+Distribuição dos Tipos de Cancro: Os 3 mais comuns são Leucemia, Fígado e Ovário — cada um com mais de 12% dos casos.
+
+Estágios do Cancro: Distribuição relativamente uniforme, com o Estágio III como o mais comum (~30%).
+
+Tratamentos: Os 4 tipos (Radioterapia, Cirurgia, Imunoterapia, Quimioterapia) são distribuídos quase igualmente (~25% cada).
+
+Resultados: ~49% Recuperados, ~41% em Tratamento, ~10% Falecidos.
+
+Insights da Análise Exploratória (EDA) & Visualizações
+
+Tendências Numéricas
+
+Distribuição Etária: Forma de sino normal; maioria dos pacientes entre 35 e 75 anos
+
+Idade Média por Tipo de Cancro: Cancros Colorretal e do Ovário afetam mais pacientes mais velhos.
+
+
+Tendências Categóricas
+
+Comorbilidades:
+Cerca de 40% não apresentavam comorbilidades. Hipertensão e Diabetes foram as mais frequentes.
+
+Estado de Tabagismo:
+Mais de metade eram não fumadores. 30% fumadores e ~19% ex-fumadores
+
+Correlações
+
+Sem correlação forte entre Idade, Peso e Altura (confirmado pela matriz de correlação e pelo heatmap)
+
+ Resultados por Tipo de Tratamento
+
+Pacientes falecidos estavam distribuídos por todos os tipos de tratamento
+
+Taxas de recuperação ligeiramente mais altas em Imunoterapia e Radioterapia
+
+Tendências e Padrões
+
+Pacientes tendem a recuperar mais com Imunoterapia e Radioterapia
+
+Pacientes sem comorbidades parecem ter melhores desfechos
+
+Idade avançada correlaciona-se ligeiramente com Cancros Colorretal e da Próstata
+
+Sem relações lineares fortes entre altura, peso e idade — sugerindo que outros fatores influenciam os resultados.
+
+Insights em decisões
+
+Rastreios precoces devem ser priorizados para pacientes mais velhos, especialmente para Cancro Colorretal e do Ovário.
+
+Campanhas de saúde pública devem focar-se no controlo da hipertensão e diabetes, devido à sua prevalência.
+
+Programas de cessação tabágica podem ter impacto a longo prazo na redução da gravidade e mortalidade do cancro.
+
+
