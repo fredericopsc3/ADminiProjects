@@ -154,7 +154,7 @@ plt.xticks(rotation=45)
 plt.tight_layout()
 plt.show()
 
-# Scatterplot, faceted by Region (Emirate) facet_scatterplot("age", "height", col_by="emirate")
+# Scatterplot, faceted by Region (Emirate)
 sns.relplot(data=cancer_df, x="age", y="height", col="emirate", kind='scatter', height=4, aspect=1)
 plt.suptitle(f"{"height".title()} vs {"age".title()} by {"emirate".title()}", y=1.03)
 plt.tight_layout()
